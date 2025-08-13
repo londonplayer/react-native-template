@@ -4,9 +4,9 @@
 [![React Native](https://img.shields.io/badge/React%20Native-0.7x-blue?logo=react&logoColor=white)](https://reactnative.dev/)  
 [![NativeWind](https://img.shields.io/badge/NativeWind-CSS-orange?logo=tailwindcss&logoColor=white)](https://www.nativewind.dev/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/londonplayer/react-native-expo-template/pulls)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/londonplayer/react-native-expo-template/pulls)
 
-A **ready-to-go React Native template** built with **Expo**, **NativeWind CSS**, and **Expo Router** — with all the boring setup already done for you.  
+A **ready-to-go React Native template** built with **Expo**, **NativeWind CSS**, and **Expo Router** — with all the boring setup already done for you.
 
 No more deleting boilerplate files, no more repetitive configuration. Just **install, run, and start building**.
 
@@ -18,12 +18,14 @@ No more deleting boilerplate files, no more repetitive configuration. Just **ins
   <img src="assets/preview.png" alt="App Preview" width="300" />
 </p>
 
-> 💡 *You can replace `assets/preview.png` with a real screenshot or GIF of your app running in Expo Go.*
+> 💡 _You can replace `assets/preview.png` with a real screenshot or GIF of your app running in Expo Go._
 
 ---
 
 ## ✨ Features
+
 londonplayer
+
 - **📦 Expo + React Native** — Created with `expo create@latest` for the latest features.
 - **🎨 NativeWind CSS** — Tailwind CSS styling for React Native, ready to use.
 - **🗂 Expo Router** — File-based routing for a clean navigation structure.
@@ -34,6 +36,8 @@ londonplayer
 
 ## 📂 Project Structure
 
+<pre>
+```
 ├── app/                # Your screens & routes (Expo Router)
 │   ├── index.tsx       # Home screen
 │   └── ...             # Add more screens here
@@ -42,6 +46,8 @@ londonplayer
 ├── styles/             # Global styles & NativeWind config
 ├── package.json
 └── README.md
+```
+</pre>
 
 ---
 
@@ -90,18 +96,21 @@ export default function Index() {
 		</View>
 	);
 }
-
 ```
 
---- 
+---
 
 ## 🗂 Navigation with Expo Router
 
+<pre>
+```
 app/
 ├── index.tsx       → "/"
 ├── about.tsx       → "/about"
 └── blog/
     └── [id].tsx    → "/blog/:id"
+```
+</pre>
 
 No manual route configuration — just create files and go.
 
@@ -124,9 +133,7 @@ This project is licensed under the MIT License — feel free to use it for perso
 
 ## 💡 Why This Template?
 
-
 Setting up a new React Native project can be repetitive:
-
 
 - Removing boilerplate screens
 - Installing and configuring NativeWind
