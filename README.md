@@ -37,7 +37,6 @@ londonplayer
 ## 📂 Project Structure
 
 <pre>
-```
 ├── app/                # Your screens & routes (Expo Router)
 │   ├── index.tsx       # Home screen
 │   └── ...             # Add more screens here
@@ -46,7 +45,6 @@ londonplayer
 ├── styles/             # Global styles & NativeWind config
 ├── package.json
 └── README.md
-```
 </pre>
 
 ---
@@ -103,13 +101,11 @@ export default function Index() {
 ## 🗂 Navigation with Expo Router
 
 <pre>
-```
 app/
 ├── index.tsx       → "/"
 ├── about.tsx       → "/about"
 └── blog/
     └── [id].tsx    → "/blog/:id"
-```
 </pre>
 
 No manual route configuration — just create files and go.
